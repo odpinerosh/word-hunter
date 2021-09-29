@@ -1,0 +1,10 @@
+.footer {
+    height: 10vh;
+    width: 100vw;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.made-by {
+    font-weight: bold;
+}

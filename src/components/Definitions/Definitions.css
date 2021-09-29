@@ -1,0 +1,49 @@
+.meanings {
+    display: flex;
+    flex-flow: wrap;
+    overflow-y: scroll;
+    scrollbar-color: yellow;
+    scrollbar-width: thin;
+    height: 45vh;
+    border: 10px solid rgba(105, 105, 105, 0.447);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.subTitle {
+    font-size: 5vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+audio {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.single-defi {
+    font-family: 'Poppins', sans-serif;
+    /*background-color: #fff;*/
+    /*color: #000;*/
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    
+}
+
+.part {
+    font-style: italic;
+    font-weight: 700;
+    /*color: rgb(26,115,232);*/
+}
+
+
+.defi, .exampl, .synon {
+    margin: 1rem 0 0.5rem 1.5rem;
+    line-height: 1.5rem;
+    
+}
+

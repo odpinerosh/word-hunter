@@ -1,0 +1,47 @@
+.header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 30vh;
+    margin-top: 1rem;
+    width: 100%;
+}
+.title {
+    font-size: 11vw;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.inputs {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.search, .select {
+    width: 90%;
+}
+
+@media (min-width:900px) {
+    .header {
+        height: 35vh;
+    }
+
+    .title {
+        font-size: 7vw;
+    }
+
+    .inputs {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+
+    }
+
+    .search, .select {
+        width: 40%;
+    }
+    
+}
