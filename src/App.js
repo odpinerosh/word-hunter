@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import axios from "axios";
 import './App.css';
 import Header from "./components/Header/Header";
@@ -42,7 +43,6 @@ function App() {
     }
   }
   
-  console.log(meanings);
   useEffect(() => {
     dictionaryApi();
   }, [word, category]);
