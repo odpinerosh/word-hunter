@@ -1,4 +1,11 @@
-{  "name": "Word Tool",  "short_name": "Word Tool",  "theme_color": "#fff",  "background_color": "#fff",  "display": "standalone",  "scope": "/",  "start_url": "/",
+{  "name": "Word Tool",  
+   "short_name": "Word Tool",  
+   "theme_color": "#fff",  
+   "background_color": "#fff",  
+   "display": "standalone",  
+   "scope": "/",  
+   "start_url": "/",
+   "prefer_related_applications": true,
   "icons": [
     {
       "src": "favicon.ico",
