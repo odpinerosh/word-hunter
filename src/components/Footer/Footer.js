@@ -16,7 +16,7 @@ const Footer = () => {
                             color="inherit" target="_blank" rel="noopener">
                             <span className="made-by">odpinerosh</span>
                         </Link>
-                <p>Credits to RoadSide Coder</p>
+                <p className="credits">Credits to RoadSide Coder</p>
             </Typography>
         </div>
     )

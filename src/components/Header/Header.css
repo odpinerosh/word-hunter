@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     height: 30vh;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     width: 100%;
 }
 .title {
@@ -17,11 +17,16 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    gap: 1rem;
     justify-content: space-around;
 }
 
 .search, .select {
     width: 90%;
+}
+
+.search {
+    margin-bottom: 1rem;
 }
 
 @media (min-width:900px) {
