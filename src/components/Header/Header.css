@@ -1,10 +1,10 @@
 .header {
+    
+    grid-area: head;
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 30vh;
-    margin-top: 0.5rem;
     width: 100%;
 }
 .title {

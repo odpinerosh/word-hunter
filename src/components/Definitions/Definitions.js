@@ -35,7 +35,7 @@ const Definitions = ({word, meanings, category, LightMode}) => {
             
             {
                 word === "" ? (
-                    <span className='subTitle'>Start by typing a word in Search</span>
+                    <span className='subTitle'>Escriba una palabra en buscar...</span>
                 ) : (
                     lexicon.map(item => (
                         <div className='single-defi' 

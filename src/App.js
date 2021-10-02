@@ -60,11 +60,11 @@ function App() {
      
       <Container maxWitdh="md" className="container">
         <div className="dark-mode">
-          <span className="sw-label">Dark</span>
+          <span className="sw-label">Oscuro</span>
           <DarkModeSwitch defaultChecked 
             checked={LightMode} 
             onChange={() => setLightMode(!LightMode)}/>
-          <span className="sw-label">Light</span>
+          <span className="sw-label">Claro</span>
         </div>
         <Header 
           category={category} 

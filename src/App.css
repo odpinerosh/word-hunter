@@ -7,15 +7,20 @@
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  
-  justify-content:space-evenly;
+  display: grid !important;
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(50px, 70px) minmax(200px, 250px) 400px;
+  grid-template-areas: 'dark'
+                       'head'
+                       'mean';
+  row-gap: 20px;
+  position: relative;
+  /*flex-direction: column;
+  justify-content:space-evenly;*/
 }
 
-
-
 .dark-mode {
+  grid-area: dark;
   width: 100%;
   display: flex;
   justify-content: flex-end;
@@ -28,3 +33,4 @@
 .sw-label {
   font-family: 'Montserrat', sans-serif;
 }
+

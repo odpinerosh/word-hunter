@@ -25,13 +25,13 @@ const Header = ({ setCategory, category, word, setWord, LightMode, setMeanings }
 
     return (
         <div className="header">
-            <span className="title">{word?word:"word tool"}</span>
+            <span className="title">{word?word:"diccionario"}</span>
             <div className="inputs">
                 <ThemeProvider theme={darkTheme}>
                     <TextField 
                         id="search-word" 
                         className="search" 
-                        label="Search a word" 
+                        label="Buscar..." 
                         variant="filled"
                         value={word}
                         onChange={(e) => setWord(e.target.value)}
@@ -44,7 +44,7 @@ const Header = ({ setCategory, category, word, setWord, LightMode, setMeanings }
                         label=" "
                         value={category}
                         onChange={(e) => handleChange(e.target.value)}
-                        helperText="Please select your language"
+                        helperText="Idioma"
                         variant="filled">
                         {
                             categories.map((option) => (

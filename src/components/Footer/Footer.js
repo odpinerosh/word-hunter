@@ -12,11 +12,11 @@ const Footer = () => {
         <div className="footer">
             <hr />
             <Typography variant="body1" gutterBottom>
-                Made by <Link href="https://github.com/odpinerosh/" 
+                Hecho por <Link href="https://github.com/odpinerosh/" 
                             color="inherit" target="_blank" rel="noopener">
                             <span className="made-by">odpinerosh</span>
                         </Link>
-                <p className="credits">Credits to RoadSide Coder</p>
+                <p className="credits">Créditos: RoadSide Coder</p>
             </Typography>
         </div>
     )
